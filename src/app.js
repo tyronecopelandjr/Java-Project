@@ -18,7 +18,7 @@ let when = ['before the class', 'when I was sleeping', 'while I was praying'];
   function getRandom(anyArray){
     let max=who.length -1;
     let min= 0
-    let random = getRandomNumber(min,max);
+    let random = getRandomInt(min,max);
     return anyArray [random];
   }
 
